@@ -25,6 +25,7 @@ out.phi = angles [external reference frame, angles all from positive X axis] (ra
 out.phiseg = inter-segment angles (radians)
 ddt_phiseg
 out.ddt_phi
+<<<<<<< Updated upstream
 out.base = position of the foot (m)
 out.lcerel = contractile element length (dim.less)
  out.gamma = calcium concentration (dim.less)
@@ -39,3 +40,19 @@ out.loi = muscle-tendon complex length (m)
 out.ese = tendon excursion (m)
 out.q = muscle active state (dim.less)
 out.stim = muscle stimulation (dim.less)
+=======
+out.base = position of the foot
+out.lcerel = contractile element length
+out.gamma = calcium concentration
+out.x = center of mass horizontal position
+out.y = center of mass vertical position
+out.cmx = position of segments
+out.cmy = position of segments
+out.tor = net joint torques
+out.fse = force in the series-elastic element
+out.fpe = force in the parallel-elastic element
+out.loi = muscle-tendon complex length
+out.ese = tendon excursion
+out.q = muscle active state
+out.stim = muscle stimulation
+>>>>>>> Stashed changes
